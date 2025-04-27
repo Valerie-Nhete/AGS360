@@ -4,7 +4,7 @@
 
 ## Problem
 
-Smallholder farmers, who form the backbone of food production in regions like Zimbabwe, Zambia, and much of Sub-Saharan Africa, are facing a serious crisis.  
+Smallholder farmers, who form the backbone of food production in regions like Sub-Saharan Africa, are facing a serious crisis.  
 They depend heavily on rain-fed agriculture, yet climate change has made rainfall patterns highly unpredictable, causing frequent droughts, poor yields, and food insecurity.
 
 Despite advances in agricultural science, access to localized data-driven advice on crop selection, soil management, and climate adaptation remains extremely limited for rural farmers.  
