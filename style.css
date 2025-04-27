@@ -1,0 +1,327 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+}
+
+/* Top Black Section */
+.top-section {
+    background-color: #1b1b1b; /* Solid black */
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* AGS Logo */
+.logo {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 120px;
+}
+
+/* Login Form Section */
+.login-page .form-section {
+    margin: 40px auto;
+    width: 90%;
+    max-width: 350px;
+    text-align: center;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.login-form input {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.login-form label {
+    font-size: 12px;
+    text-align: left;
+    margin-bottom: 4px;
+    color: #333;
+}
+
+.login-form button {
+    background-color: #1b1b1b;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #333333;
+}
+
+/* Dashboard Content */
+.dashboard-page .dashboard-content {
+    margin: 30px auto;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.dashboard-content h1 {
+    font-size: 20px;
+    color: #2e7d32;
+    margin-bottom: 30px;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.menu-button {
+    background-color: #e0e0e0;
+    color: #555;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.menu-button:hover {
+    background-color: #cccccc;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    .top-section {
+        padding: 30px 0;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .login-page .form-section,
+    .dashboard-page .dashboard-content {
+        width: 95%;
+    }
+}
+
+/* Data Collection Page Styles */
+.data-collection-page .content-section {
+    margin: 30px auto;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.data-collection-page h1 {
+    font-size: 22px;
+    color: #2e7d32;
+    margin: 20px 0;
+}
+
+.city-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.city-form input {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.city-form button {
+    background-color: #1b1b1b;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.city-form button:hover {
+    background-color: #333333;
+}
+
+.results-section {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.results-section h2 {
+    font-size: 18px;
+    color: #2e7d32;
+    margin-bottom: 15px;
+}
+
+.result-item {
+    margin: 10px 0;
+    font-size: 15px;
+    color: #333;
+}
+
+.export-button {
+    margin-top: 20px;
+    background-color: #66bb6a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.export-button:hover {
+    background-color: #4caf50;
+}
+
+/* Daily Report Page */
+.daily-report-page .content-section {
+    margin: 30px auto;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.daily-report-page h1 {
+    font-size: 22px;
+    color: #2e7d32;
+    margin: 20px 0;
+}
+
+.results-section {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.results-section p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+/* History Page */
+.history-page .content-section {
+    margin: 30px auto;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.history-page h1 {
+    font-size: 22px;
+    color: #2e7d32;
+    margin: 20px 0;
+}
+
+.history-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.history-buttons button {
+    padding: 10px 15px;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.history-buttons button:hover {
+    background-color: #cccccc;
+}
+
+.history-content {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Social Hub Page */
+.social-hub-page .content-section {
+    margin: 30px auto;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.social-hub-page h1 {
+    font-size: 22px;
+    color: #2e7d32;
+    margin: 20px 0;
+}
+
+.social-feed {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.feed-card {
+    background-color: #f2f2f2;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Bottom Navigation Bar */
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.bottom-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.bottom-nav a:hover {
+    color: #66bb6a;
+}
+
+
+
+
+
+

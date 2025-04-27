@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AgriSense360 - Social Hub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: #ffffff;
+            min-height: 100vh;
+            overflow-x: hidden;
+            padding-bottom: 80px;
+            position: relative;
+            animation: fadeIn 1s ease-in;
+        }
+
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+        .logo {
+            max-width: 120px;
+            margin-top: 30px;
+        }
+
+        .heading {
+            color: #2E7D32;
+            font-weight: bold;
+        }
+
+        .message-card {
+            background: #f1f8e9;
+            border-radius: 15px;
+            padding: 15px;
+            margin: 10px 0;
+            text-align: left;
+            box-shadow: 0px 5px 10px rgba(0,0,0,0.05);
+        }
+
+        .group-name {
+            font-weight: bold;
+            color: #4CAF50;
+        }
+
+        .last-message {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .shape { position: absolute; width: 200px; height: 200px; background: radial-gradient(circle at center, #C8E6C9, transparent 70%); border-radius: 50%; z-index: 0; }
+        .shape.top-left { top: -50px; left: -50px; }
+        .shape.bottom-right { bottom: -50px; right: -50px; }
+
+        /* Bottom Navigation */
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background: #ffffff;
+            border-top: 1px solid #ccc;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+            z-index: 2;
+        }
+        .bottom-nav a {
+            color: #4CAF50;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .bottom-nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Soft Shapes -->
+    <div class="shape top-left"></div>
+    <div class="shape bottom-right"></div>
+
+    <div class="container position-relative" style="z-index: 1;">
+        <div class="text-center">
+            <img src="ags_logo.jpg" alt="AGS Logo" class="logo">
+            <h1 class="mt-4 mb-4 heading">Social Hub</h1>
+        </div>
+
+        <!-- Prototype Messaging Panel -->
+        <div class="message-card">
+            <div class="group-name">Maize Farmers Group</div>
+            <div class="last-message">"Rainfall expected tomorrow. Prepare your fields!"</div>
+        </div>
+
+        <div class="message-card">
+            <div class="group-name">AgriTech Southern Africa News</div>
+            <div class="last-message">"New drought-resistant seeds available next week."</div>
+        </div>
+
+        <div class="message-card">
+            <div class="group-name">Market Updates</div>
+            <div class="last-message">"Maize prices increased 5% this week."</div>
+        </div>
+
+    </div>
+
+    <!-- Bottom Navigation -->
+    <div class="bottom-nav">
+        <a href="dashboard.html">Home</a>
+        <a href="data_collection.html">Data</a>
+        <a href="history.html">History</a>
+        <a href="social_hub.html">Social Hub</a>
+    </div>
+
+</body>
+</html>
