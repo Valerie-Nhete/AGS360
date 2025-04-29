@@ -66,7 +66,7 @@ Data storage and export logic
 Python packages required
 
 ## /frontend
-###index.html         
+### index.html         
 Welcome Page
 ### dashboard.html     
 Main Dashboard
@@ -119,16 +119,17 @@ Footer Decoration Image
 ### Option 2
 
 Run in Glitch (Recommended)
+
 	1.	Go to https://glitch.com
 	2.	Click “New Project” > “Import from GitHub”
 	3.	Paste this repository URL:
 
-https://github.com/valerienhete/agrisense360
+https://github.com/Valerie-Nhete/AGS360
 
-	4.	Once imported:
-	•	Wait for dependencies to install (Glitch auto-installs from requirements.txt)
-	•	Click “Show” to preview the app
-	•	You can now test the frontend and backend fully
+    4.	Once imported:
+		Wait for dependencies to install (Glitch auto-installs from requirements.txt)
+		Click “Show” to preview the app
+		You can now test the frontend and backend fully
 
 ---
 
