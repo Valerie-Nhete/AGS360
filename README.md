@@ -55,7 +55,7 @@ This is not just a tool — it is a lifeline for empowering rural communities to
 
 ## Repository Structure
 
-# /backend
+### /backend
 # server.py         
 Flask server (backend API endpoints)
 # main.py            
