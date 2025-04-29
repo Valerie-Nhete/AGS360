@@ -97,6 +97,8 @@ Footer Decoration Image
 
 ## How to Run (Development Instructions)
 
+### Option 1
+
 1. **Backend Setup:**
     - Install Python 3.10+ and Flask
     - Install required packages:
@@ -114,11 +116,25 @@ Footer Decoration Image
     - Ensure the backend URL is correctly configured in `frontend/script.js`
     - Submit field data via Data Collection page and view real-time reports
 
+### Option 2
+
+Run in Glitch (Recommended)
+	1.	Go to https://glitch.com
+	2.	Click “New Project” > “Import from GitHub”
+	3.	Paste this repository URL:
+
+https://github.com/valerienhete/agrisense360
+
+	4.	Once imported:
+	•	Wait for dependencies to install (Glitch auto-installs from requirements.txt)
+	•	Click “Show” to preview the app
+	•	You can now test the frontend and backend fully
+
 ---
 
 ## Team
 
-- **Valerie Nhete** — Full Stack Developer, UI/UX Designer, Innovator
+- **Valerie Nhete** — Full Stack Developer, UI/UX Designer
 
 ---
 
