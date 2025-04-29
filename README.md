@@ -48,7 +48,7 @@ This is not just a tool — it is a lifeline for empowering rural communities to
 | Frontend | HTML, CSS (Bootstrap), JavaScript |
 | Backend | Python (Flask), REST APIs |
 | APIs | AgroMonitoring API, OpenWeatherMap API (optional) |
-| Hosting | Replit (Development Environment) |
+| Hosting | Glitch (for combined backend and frontend) |
 | Security | Environment Variables (Secrets Hidden) |
 
 ---
@@ -56,21 +56,34 @@ This is not just a tool — it is a lifeline for empowering rural communities to
 ## Repository Structure
 
 /backend
-server.py          # Flask server (backend API endpoints)
-main.py            # Initial backend testing
-data_storage.py    # Data storage and export logic
-requirements.txt   # Python packages required
+server.py         
+# Flask server (backend API endpoints)
+main.py            
+# Initial backend testing
+data_storage.py   
+# Data storage and export logic
+requirements.txt   
+# Python packages required
 
 /frontend
-index.html         # Welcome Page
-dashboard.html     # Main Dashboard
-data_collection.html # Dynamic Data Collection
-daily_report.html  # Daily Summary Reports
-history.html       # History of Data (Daily/Weekly/Monthly)
-social_hub.html    # Social Communication Hub
-script.js          # Frontend Dynamic Logic
-ags_logo.jpg       # Project Logo
-farming_bottom.jpg # Footer Decoration Image
+index.html         
+# Welcome Page
+dashboard.html     
+# Main Dashboard
+data_collection.html 
+# Dynamic Data Collection
+daily_report.html  
+# Daily Summary Reports
+history.html       
+# History of Data (Daily/Weekly/Monthly)
+social_hub.html    
+# Social Communication Hub
+script.js          
+# Frontend Dynamic Logic
+ags_logo.jpg       
+# Project Logo
+farming_bottom.jpg 
+# Footer Decoration Image
 
 ---
 
