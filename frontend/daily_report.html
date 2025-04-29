@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AgriSense360 - Daily Report</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="shape top-left"></div>
+  <div class="shape bottom-right"></div>
+
+  <div class="container text-center position-relative" style="z-index: 1;">
+    <img src="https://cdn.glitch.global/854f620d-8127-4a4d-9900-d6cf43377475/ags_logo.jpg?v=1745902470301" alt="AgriSense360 Logo" class="logo" />
+    <h1 class="mt-4 mb-4 heading">Daily Report</h1>
+
+    <div class="report-section">
+      <table class="table table-bordered">
+        <thead>
+          <tr><th>Field</th><th>Value</th></tr>
+        </thead>
+        <tbody id="report-body">
+          <tr><td>City</td><td id="city"></td></tr>
+          <tr><td>Temperature</td><td id="temperature"></td></tr>
+          <tr><td>Soil Moisture</td><td id="soil_moisture"></td></tr>
+          <tr><td>Weather</td><td id="weather"></td></tr>
+          <tr><td>Soil pH</td><td id="soil_ph"></td></tr>
+          <tr><td>Microbial Health</td><td id="microbial_health"></td></tr>
+          <tr><td>Nearby Crops</td><td id="nearby_crops"></td></tr>
+          <tr><td>Suggested Crops</td><td id="suggested_crops"></td></tr>
+          <tr><td>Estimated Yield</td><td id="estimated_yield"></td></tr>
+          <tr><td>Estimated Profit</td><td id="estimated_profit"></td></tr>
+          <tr><td>Timestamp</td><td id="timestamp"></td></tr>
+        </tbody>
+      </table>
+
+      <!-- Export Button -->
+      <button class="btn-leaf" onclick="exportCSV()">Export Results to CSV</button>
+
+    </div>
+  </div>
+
+  <div class="bottom-nav">
+    <a href="dashboard.html">Home</a>
+    <a href="data_collection.html">Data</a>
+    <a href="history.html">History</a>
+    <a href="social_hub.html">Social</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

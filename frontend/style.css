@@ -1,0 +1,200 @@
+/* Body Styles */
+body {
+    background: #ffffff;
+    min-height: 100vh;
+    overflow-x: hidden;
+    padding-bottom: 80px; /* For bottom navbar space */
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    animation: fadeIn 1s ease-in;
+}
+
+/* Smooth Fade In */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Logo Styling */
+.logo {
+    max-width: 120px;
+    margin-top: 30px;
+}
+
+/* Heading Styling */
+.heading {
+    color: #2E7D32; /* Dark Green */
+    font-weight: bold;
+    font-size: 28px;
+}
+
+/* Subheading */
+.subheading {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Primary Button (Get Started Button) */
+.btn-primary {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: background 0.3s ease;
+}
+.btn-primary:hover {
+    background-color: #388E3C;
+}
+
+/* Leaf-Style Button for Dashboard Menu */
+.btn-leaf {
+    display: block;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 24px;
+    margin: 15px auto;
+    width: 80%;
+    text-align: center;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    text-decoration: none;
+    transition: background 0.3s, transform 0.2s;
+}
+.btn-leaf:hover {
+    background: #388E3C;
+    transform: scale(1.02);
+}
+
+/* Bottom Navbar */
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #ffffff;
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    z-index: 2;
+}
+.bottom-nav a {
+    color: #4CAF50;
+    font-weight: bold;
+    text-decoration: none;
+}
+.bottom-nav a:hover {
+    text-decoration: underline;
+}
+
+/* Soft Animated Background Shapes */
+.shape {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle at center, #C8E6C9, transparent 70%);
+    border-radius: 50%;
+    z-index: 0;
+}
+.shape.top-left {
+    top: -50px;
+    left: -50px;
+}
+.shape.bottom-right {
+    bottom: -50px;
+    right: -50px;
+}
+
+/* Container */
+.container {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+}
+
+/* For index.html */
+.bottom-half-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  max-height: 80vh;
+  object-fit: contain;
+  z-index: 0;
+}
+
+.footer-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: -10px; /* pulls it closer to the nav */
+  max-height: 120px;
+  object-fit: contain;
+}
+
+.centered-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  padding: 80px;
+}
+
+.index-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 20px;
+  z-index: 1;
+  position: relative;
+}
+
+.logo {
+  width: 150px;
+  max-width: 160px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.index-heading {
+  font-size: 5vw; /* scales with screen size */
+  color: #2E7D32;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.index-subtext {
+  font-size: 3vw;
+  color: #444;
+  margin-bottom: 30px;
+}
+
+.btn-primary {
+  padding: 12px 24px;
+  font-size: 3vw;
+  background-color: #2E7D32;
+  color: white;
+  border: none;
+  border-radius: 22px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #1b5e20;
+}
